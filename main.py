@@ -5,10 +5,9 @@ Pure stdlib. Deterministic: the same line, byte for byte, every run.
 
 import os
 
-LINE = (
-    "My AI agent pre-ordered GTA 6 for every NPC in Los Santos, "
-    "then filed a bug report against itself for overspending.\n"
-)
+SETUP = "My AI agent pre-ordered GTA 6 for every NPC in Los Santos, "
+PUNCHLINE = "then filed a bug report against itself for overspending."
+LINE = SETUP + PUNCHLINE + "\n"
 
 
 def main():
